@@ -1,0 +1,60 @@
+.banner {
+  width: 100vw !important;
+  background-color: #421051 !important;
+  overflow: hidden;
+}
+
+.banner img {
+  animation-name: animate-banner-image;
+  animation-duration: 1.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: animate-banner-image;
+  -webkit-animation-duration: 1.5s;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-name: animate-banner-image;
+  -moz-animation-duration: 1.5s;
+  -moz-animation-direction: alternate;
+  -moz-animation-iteration-count: infinite;
+  -o-animation-name: animate-banner-image;
+  -o-animation-duration: 1.5s;
+  -o-animation-direction: alternate;
+  -o-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes animate-banner-image {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes animate-banner-image {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@-moz-keyframes animate-banner-image {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@-o-keyframes animate-banner-image {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
